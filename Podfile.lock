@@ -1,0 +1,700 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.5.1)
+  - Base64 (1.1.2)
+  - BMKLocationKit (1.8.5)
+  - boost (1.76.0)
+  - Bugtags (3.3.0):
+    - Bugtags/Core (= 3.3.0)
+  - Bugtags/Core (3.3.0)
+  - CocoaAsyncSocket (7.6.4)
+  - CryptoSwift (1.4.0)
+  - DoubleConversion (1.1.6)
+  - FBLazyVector (0.66.1)
+  - FBReactNativeSpec (0.66.1):
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTRequired (= 0.66.1)
+    - RCTTypeSafety (= 0.66.1)
+    - React-Core (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - ReactCommon/turbomodule/core (= 0.66.1)
+  - FLAnimatedImage (1.0.12)
+  - fmt (6.2.1)
+  - glog (0.3.5)
+  - Growing (2.8.22)
+  - GrowingAutoTrackKit (2.8.22):
+    - GrowingCoreKit (= 2.8.22)
+  - GrowingCoreKit (2.8.22):
+    - Growing (= 2.8.22)
+  - GTSDK (2.4.1.0)
+  - HappyDNS (0.3.17)
+  - ISVImageScrollView (0.1.2)
+  - JWT (3.0.0-beta.7):
+    - Base64 (~> 1.1.2)
+  - KeychainAccess (3.1.2)
+  - Kingfisher (4.10.1)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.2.2)
+  - MLFace (0.1.0)
+  - MMLayout (0.2.0)
+  - ObjectMapper (3.5.3)
+  - Qiniu (8.0.4):
+    - HappyDNS (~> 0.3.17)
+  - RCT-Folly (2021.06.28.00-v2):
+    - boost
+    - DoubleConversion
+    - fmt (~> 6.2.1)
+    - glog
+    - RCT-Folly/Default (= 2021.06.28.00-v2)
+  - RCT-Folly/Default (2021.06.28.00-v2):
+    - boost
+    - DoubleConversion
+    - fmt (~> 6.2.1)
+    - glog
+  - RCTRequired (0.66.1)
+  - RCTTypeSafety (0.66.1):
+    - FBLazyVector (= 0.66.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTRequired (= 0.66.1)
+    - React-Core (= 0.66.1)
+  - Reachability (3.2)
+  - ReachabilitySwift (3)
+  - React (0.66.1):
+    - React-Core (= 0.66.1)
+    - React-Core/DevSupport (= 0.66.1)
+    - React-Core/RCTWebSocket (= 0.66.1)
+    - React-RCTActionSheet (= 0.66.1)
+    - React-RCTAnimation (= 0.66.1)
+    - React-RCTBlob (= 0.66.1)
+    - React-RCTImage (= 0.66.1)
+    - React-RCTLinking (= 0.66.1)
+    - React-RCTNetwork (= 0.66.1)
+    - React-RCTSettings (= 0.66.1)
+    - React-RCTText (= 0.66.1)
+    - React-RCTVibration (= 0.66.1)
+  - React-callinvoker (0.66.1)
+  - React-Core (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default (= 0.66.1)
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-Core/CoreModulesHeaders (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-Core/Default (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-Core/DevSupport (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default (= 0.66.1)
+    - React-Core/RCTWebSocket (= 0.66.1)
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-jsinspector (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-Core/RCTActionSheetHeaders (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-Core/RCTAnimationHeaders (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-Core/RCTBlobHeaders (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-Core/RCTImageHeaders (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-Core/RCTLinkingHeaders (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-Core/RCTNetworkHeaders (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-Core/RCTSettingsHeaders (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-Core/RCTTextHeaders (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-Core/RCTVibrationHeaders (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-Core/RCTWebSocket (0.66.1):
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/Default (= 0.66.1)
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsiexecutor (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - Yoga
+  - React-CoreModules (0.66.1):
+    - FBReactNativeSpec (= 0.66.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.66.1)
+    - React-Core/CoreModulesHeaders (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-RCTImage (= 0.66.1)
+    - ReactCommon/turbomodule/core (= 0.66.1)
+  - React-cxxreact (0.66.1):
+    - boost (= 1.76.0)
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-callinvoker (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-jsinspector (= 0.66.1)
+    - React-logger (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+    - React-runtimeexecutor (= 0.66.1)
+  - React-jsi (0.66.1):
+    - boost (= 1.76.0)
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-jsi/Default (= 0.66.1)
+  - React-jsi/Default (0.66.1):
+    - boost (= 1.76.0)
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+  - React-jsiexecutor (0.66.1):
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+  - React-jsinspector (0.66.1)
+  - React-logger (0.66.1):
+    - glog
+  - React-perflogger (0.66.1)
+  - React-RCTActionSheet (0.66.1):
+    - React-Core/RCTActionSheetHeaders (= 0.66.1)
+  - React-RCTAnimation (0.66.1):
+    - FBReactNativeSpec (= 0.66.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.66.1)
+    - React-Core/RCTAnimationHeaders (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - ReactCommon/turbomodule/core (= 0.66.1)
+  - React-RCTBlob (0.66.1):
+    - FBReactNativeSpec (= 0.66.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/RCTBlobHeaders (= 0.66.1)
+    - React-Core/RCTWebSocket (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-RCTNetwork (= 0.66.1)
+    - ReactCommon/turbomodule/core (= 0.66.1)
+  - React-RCTImage (0.66.1):
+    - FBReactNativeSpec (= 0.66.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.66.1)
+    - React-Core/RCTImageHeaders (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-RCTNetwork (= 0.66.1)
+    - ReactCommon/turbomodule/core (= 0.66.1)
+  - React-RCTLinking (0.66.1):
+    - FBReactNativeSpec (= 0.66.1)
+    - React-Core/RCTLinkingHeaders (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - ReactCommon/turbomodule/core (= 0.66.1)
+  - React-RCTNetwork (0.66.1):
+    - FBReactNativeSpec (= 0.66.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.66.1)
+    - React-Core/RCTNetworkHeaders (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - ReactCommon/turbomodule/core (= 0.66.1)
+  - React-RCTSettings (0.66.1):
+    - FBReactNativeSpec (= 0.66.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - RCTTypeSafety (= 0.66.1)
+    - React-Core/RCTSettingsHeaders (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - ReactCommon/turbomodule/core (= 0.66.1)
+  - React-RCTText (0.66.1):
+    - React-Core/RCTTextHeaders (= 0.66.1)
+  - React-RCTVibration (0.66.1):
+    - FBReactNativeSpec (= 0.66.1)
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-Core/RCTVibrationHeaders (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - ReactCommon/turbomodule/core (= 0.66.1)
+  - React-runtimeexecutor (0.66.1):
+    - React-jsi (= 0.66.1)
+  - ReactCommon/turbomodule/core (0.66.1):
+    - DoubleConversion
+    - glog
+    - RCT-Folly (= 2021.06.28.00-v2)
+    - React-callinvoker (= 0.66.1)
+    - React-Core (= 0.66.1)
+    - React-cxxreact (= 0.66.1)
+    - React-jsi (= 0.66.1)
+    - React-logger (= 0.66.1)
+    - React-perflogger (= 0.66.1)
+  - ReactiveCocoa (9.0.0):
+    - ReactiveSwift (~> 5.0)
+  - ReactiveObjC (3.1.1)
+  - ReactiveSwift (5.0.1):
+    - Result (~> 4.1)
+  - Realm (3.21.0):
+    - Realm/Headers (= 3.21.0)
+  - Realm/Headers (3.21.0)
+  - RealmSwift (3.21.0):
+    - Realm (= 3.21.0)
+  - Result (4.1.0)
+  - RTRootNavigationController (0.7.2):
+    - RTRootNavigationController/Core (= 0.7.2)
+  - RTRootNavigationController/Core (0.7.2)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.5.2):
+    - SDWebImage/Core (= 5.5.2)
+  - SDWebImage/Core (5.5.2)
+  - SnapKit (4.0.1)
+  - SRVideoPlayer (1.0.0):
+    - Masonry (~> 1.0.2)
+  - SSZipArchive (2.1.1)
+  - SVProgressHUD (2.0.3)
+  - SwifterSwift (4.0.1):
+    - SwifterSwift/AppKit (= 4.0.1)
+    - SwifterSwift/CoreGraphics (= 4.0.1)
+    - SwifterSwift/CoreLocation (= 4.0.1)
+    - SwifterSwift/Foundation (= 4.0.1)
+    - SwifterSwift/SwiftStdlib (= 4.0.1)
+    - SwifterSwift/UIKit (= 4.0.1)
+  - SwifterSwift/AppKit (4.0.1)
+  - SwifterSwift/CoreGraphics (4.0.1)
+  - SwifterSwift/CoreLocation (4.0.1)
+  - SwifterSwift/Foundation (4.0.1)
+  - SwifterSwift/SwiftStdlib (4.0.1)
+  - SwifterSwift/UIKit (4.0.1)
+  - SwiftProtobuf (1.0.0)
+  - SwiftyBeaver (1.4.2)
+  - Toast (4.0.0)
+  - Toast-Swift (5.0.1)
+  - TZImagePickerController (3.3.2)
+  - WechatOpenSDK (1.8.7.1)
+  - YBImageBrowser (3.0.9):
+    - YBImageBrowser/Core (= 3.0.9)
+  - YBImageBrowser/Core (3.0.9):
+    - SDWebImage (>= 5.0.0)
+    - YYImage
+  - Yoga (1.14.0)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYText (1.0.7)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+  - ZLPhotoBrowser-objc (1.0.2):
+    - SDWebImage
+
+DEPENDENCIES:
+  - AFNetworking (= 4.0.1)
+  - Alamofire (= 4.5.1)
+  - Base64 (= 1.1.2)
+  - BMKLocationKit (= 1.8.5)
+  - boost (from `node_modules/react-native/third-party-podspecs/boost.podspec`)
+  - Bugtags (= 3.3.0)
+  - CocoaAsyncSocket (= 7.6.4)
+  - CryptoSwift (= 1.4.0)
+  - DoubleConversion (from `node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - FBLazyVector (from `node_modules/react-native/Libraries/FBLazyVector`)
+  - FBReactNativeSpec (from `node_modules/react-native/React/FBReactNativeSpec`)
+  - FLAnimatedImage (= 1.0.12)
+  - glog (from `node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - GrowingAutoTrackKit (= 2.8.22)
+  - GTSDK (= 2.4.1.0)
+  - ISVImageScrollView (= 0.1.2)
+  - JWT (= 3.0.0-beta.7)
+  - KeychainAccess (= 3.1.2)
+  - Kingfisher (= 4.10.1)
+  - Masonry (= 1.0.2)
+  - MBProgressHUD (= 1.2.0)
+  - MJExtension (= 3.2.2)
+  - MLFace
+  - MMLayout (= 0.2.0)
+  - ObjectMapper (= 3.5.3)
+  - Qiniu (= 8.0.4)
+  - RCT-Folly (from `node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
+  - RCTRequired (from `node_modules/react-native/Libraries/RCTRequired`)
+  - RCTTypeSafety (from `node_modules/react-native/Libraries/TypeSafety`)
+  - Reachability (= 3.2)
+  - ReachabilitySwift (= 3.0)
+  - React (from `node_modules/react-native/`)
+  - React-callinvoker (from `node_modules/react-native/ReactCommon/callinvoker`)
+  - React-Core (from `node_modules/react-native/`)
+  - React-Core/DevSupport (from `node_modules/react-native/`)
+  - React-Core/RCTWebSocket (from `node_modules/react-native/`)
+  - React-CoreModules (from `node_modules/react-native/React/CoreModules`)
+  - React-cxxreact (from `node_modules/react-native/ReactCommon/cxxreact`)
+  - React-jsi (from `node_modules/react-native/ReactCommon/jsi`)
+  - React-jsiexecutor (from `node_modules/react-native/ReactCommon/jsiexecutor`)
+  - React-jsinspector (from `node_modules/react-native/ReactCommon/jsinspector`)
+  - React-logger (from `node_modules/react-native/ReactCommon/logger`)
+  - React-perflogger (from `node_modules/react-native/ReactCommon/reactperflogger`)
+  - React-RCTActionSheet (from `node_modules/react-native/Libraries/ActionSheetIOS`)
+  - React-RCTAnimation (from `node_modules/react-native/Libraries/NativeAnimation`)
+  - React-RCTBlob (from `node_modules/react-native/Libraries/Blob`)
+  - React-RCTImage (from `node_modules/react-native/Libraries/Image`)
+  - React-RCTLinking (from `node_modules/react-native/Libraries/LinkingIOS`)
+  - React-RCTNetwork (from `node_modules/react-native/Libraries/Network`)
+  - React-RCTSettings (from `node_modules/react-native/Libraries/Settings`)
+  - React-RCTText (from `node_modules/react-native/Libraries/Text`)
+  - React-RCTVibration (from `node_modules/react-native/Libraries/Vibration`)
+  - React-runtimeexecutor (from `node_modules/react-native/ReactCommon/runtimeexecutor`)
+  - ReactCommon/turbomodule/core (from `node_modules/react-native/ReactCommon`)
+  - ReactiveCocoa (= 9.0.0)
+  - ReactiveObjC (= 3.1.1)
+  - Realm (from `https://github.com/realm/realm-cocoa.git`, tag `v3.21.0`)
+  - RealmSwift (from `https://github.com/realm/realm-cocoa.git`, tag `v3.21.0`)
+  - RTRootNavigationController (= 0.7.2)
+  - RxCocoa (= 5.1.1)
+  - RxSwift (= 5.1.1)
+  - SDCycleScrollView (= 1.82)
+  - SDWebImage (= 5.5.2)
+  - SnapKit (= 4.0.1)
+  - SRVideoPlayer (= 1.0.0)
+  - SSZipArchive (= 2.1.1)
+  - SVProgressHUD (= 2.0.3)
+  - SwifterSwift (= 4.0.1)
+  - SwiftProtobuf (= 1.0.0)
+  - SwiftyBeaver (= 1.4.2)
+  - Toast (= 4.0.0)
+  - Toast-Swift (~> 5.0.1)
+  - TZImagePickerController (= 3.3.2)
+  - WechatOpenSDK (from `./Package/WechatOpenSDK.podspec.json`)
+  - YBImageBrowser (= 3.0.9)
+  - Yoga (from `node_modules/react-native/ReactCommon/yoga`)
+  - YYImage (= 1.0.4)
+  - YYText (= 1.0.7)
+  - YYWebImage (= 1.0.5)
+  - ZLPhotoBrowser-objc (= 1.0.2)
+
+SPEC REPOS:
+  http://nexus.medlinker.com/repository/cocoapods/:
+    - AFNetworking
+    - Alamofire
+    - Base64
+    - BMKLocationKit
+    - Bugtags
+    - CocoaAsyncSocket
+    - CryptoSwift
+    - FLAnimatedImage
+    - fmt
+    - Growing
+    - GrowingAutoTrackKit
+    - GrowingCoreKit
+    - GTSDK
+    - HappyDNS
+    - ISVImageScrollView
+    - JWT
+    - KeychainAccess
+    - Kingfisher
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MMLayout
+    - ObjectMapper
+    - Qiniu
+    - Reachability
+    - ReachabilitySwift
+    - ReactiveCocoa
+    - ReactiveObjC
+    - ReactiveSwift
+    - Result
+    - RTRootNavigationController
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDCycleScrollView
+    - SDWebImage
+    - SnapKit
+    - SRVideoPlayer
+    - SSZipArchive
+    - SVProgressHUD
+    - SwifterSwift
+    - SwiftProtobuf
+    - SwiftyBeaver
+    - Toast
+    - Toast-Swift
+    - TZImagePickerController
+    - YBImageBrowser
+    - YYCache
+    - YYImage
+    - YYText
+    - YYWebImage
+    - ZLPhotoBrowser-objc
+  https://git.medlinker.com/ios/myspecs:
+    - MLFace
+
+EXTERNAL SOURCES:
+  boost:
+    :podspec: node_modules/react-native/third-party-podspecs/boost.podspec
+  DoubleConversion:
+    :podspec: node_modules/react-native/third-party-podspecs/DoubleConversion.podspec
+  FBLazyVector:
+    :path: node_modules/react-native/Libraries/FBLazyVector
+  FBReactNativeSpec:
+    :path: node_modules/react-native/React/FBReactNativeSpec
+  glog:
+    :podspec: node_modules/react-native/third-party-podspecs/glog.podspec
+  RCT-Folly:
+    :podspec: node_modules/react-native/third-party-podspecs/RCT-Folly.podspec
+  RCTRequired:
+    :path: node_modules/react-native/Libraries/RCTRequired
+  RCTTypeSafety:
+    :path: node_modules/react-native/Libraries/TypeSafety
+  React:
+    :path: node_modules/react-native/
+  React-callinvoker:
+    :path: node_modules/react-native/ReactCommon/callinvoker
+  React-Core:
+    :path: node_modules/react-native/
+  React-CoreModules:
+    :path: node_modules/react-native/React/CoreModules
+  React-cxxreact:
+    :path: node_modules/react-native/ReactCommon/cxxreact
+  React-jsi:
+    :path: node_modules/react-native/ReactCommon/jsi
+  React-jsiexecutor:
+    :path: node_modules/react-native/ReactCommon/jsiexecutor
+  React-jsinspector:
+    :path: node_modules/react-native/ReactCommon/jsinspector
+  React-logger:
+    :path: node_modules/react-native/ReactCommon/logger
+  React-perflogger:
+    :path: node_modules/react-native/ReactCommon/reactperflogger
+  React-RCTActionSheet:
+    :path: node_modules/react-native/Libraries/ActionSheetIOS
+  React-RCTAnimation:
+    :path: node_modules/react-native/Libraries/NativeAnimation
+  React-RCTBlob:
+    :path: node_modules/react-native/Libraries/Blob
+  React-RCTImage:
+    :path: node_modules/react-native/Libraries/Image
+  React-RCTLinking:
+    :path: node_modules/react-native/Libraries/LinkingIOS
+  React-RCTNetwork:
+    :path: node_modules/react-native/Libraries/Network
+  React-RCTSettings:
+    :path: node_modules/react-native/Libraries/Settings
+  React-RCTText:
+    :path: node_modules/react-native/Libraries/Text
+  React-RCTVibration:
+    :path: node_modules/react-native/Libraries/Vibration
+  React-runtimeexecutor:
+    :path: node_modules/react-native/ReactCommon/runtimeexecutor
+  ReactCommon:
+    :path: node_modules/react-native/ReactCommon
+  Realm:
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+    :tag: v3.21.0
+  RealmSwift:
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+    :tag: v3.21.0
+  WechatOpenSDK:
+    :podspec: "./Package/WechatOpenSDK.podspec.json"
+  Yoga:
+    :path: node_modules/react-native/ReactCommon/yoga
+
+CHECKOUT OPTIONS:
+  Realm:
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+    :tag: v3.21.0
+  RealmSwift:
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+    :tag: v3.21.0
+
+SPEC CHECKSUMS:
+  AFNetworking: afe148f1dd80bcaed322c25b8e6355f90da70c82
+  Alamofire: 3035e1709f6b2899b4381af6f76ad78b2f8f2f66
+  Base64: 7307d8a27c7d5aa1d6639343ee4357b598aedd03
+  BMKLocationKit: 788f34603d243d2aadda3f14e72d5a809c4acc6c
+  boost: a7c83b31436843459a1961bfd74b96033dc77234
+  Bugtags: 8d44e4b7c6cb454fdf3422ee6a444aa534fa3961
+  CocoaAsyncSocket: b4a48ea471a11283195aaa7ad8ff7583cda18f17
+  CryptoSwift: c046f15cb4c29c1dafe7eeecbaadbac2fcd8ca40
+  DoubleConversion: 831926d9b8bf8166fd87886c4abab286c2422662
+  FBLazyVector: 500821d196c3d1bd10e7e828bc93ce075234080f
+  FBReactNativeSpec: 74c869e2cffa2ffec685cd1bac6788c021da6005
+  FLAnimatedImage: 2964f473741a7a8d48d307e1fed098c6493dc73e
+  fmt: b8fb7ca8c60091ca85d3a3f8e58f01bd5e1bdbf2
+  glog: 5337263514dd6f09803962437687240c5dc39aa4
+  Growing: 3c9d96942ff594caf0a2c4f3a51f8271cf7a3321
+  GrowingAutoTrackKit: b2a8096d8d7e94eeecab35f0404fc8f2bc9ea83c
+  GrowingCoreKit: 2fecd11ef22320b84019ac123c7785ff96363bef
+  GTSDK: 73ff5a1a11ddd7bfa4e0ef7d5e17ff0e37043471
+  HappyDNS: 2bad675c58725cf4fcf5d140c17025805c8b9f81
+  ISVImageScrollView: 5d90e33eefaa77e925ab75058dba9983f60db156
+  JWT: 65355b0c9d6933771caa7583c1b1f4e490e61d7a
+  KeychainAccess: 0733e979b7cf9ff8f4095095224fa149fa347a7d
+  Kingfisher: 1a02c2fcfe2a2e2e3c248adbb7c955b9d41f42cf
+  Masonry: a8c19ded14cde8e6c615e70b6892b28129713896
+  MBProgressHUD: 427ba814a9ee43274eb5af80f49521370c4a202e
+  MJExtension: a3fcda2184e317c58dba04fa6023d251121f5bfe
+  MLFace: 903a229ecc672b0aa6f094941b920fe22f2b3137
+  MMLayout: 6492dc2e046c5d2a7e44ae00e71a516346494567
+  ObjectMapper: 190d1ff6be6f34f444603ac28813b30c773998f0
+  Qiniu: 7fef0971078e3c8513b9f42010191c9f447c1108
+  RCT-Folly: a21c126816d8025b547704b777a2ba552f3d9fa9
+  RCTRequired: 3cc065b52aa18db729268b9bd78a2feffb4d0f91
+  RCTTypeSafety: 3c4fc37d5dea452d2ef17324db5504ec2f05083a
+  Reachability: ba7237709541a60a32ad25a9b8b42ee60b42ae91
+  ReachabilitySwift: 57c895c2bacecef8178940ca6ed2f6220a9c8b4d
+  React: 4a00720816c52a213424442954acb7e4b724804a
+  React-callinvoker: 911fc6570538f3bb5c61edf9dc907c1beb4355bf
+  React-Core: e134d3a5d7b2a1a731589be776e20dbb14868f27
+  React-CoreModules: 2f8588b2aa47e7fef27125c8eaaabda963b3ac62
+  React-cxxreact: 8f1382538cad0cc8b8eafca6d66268828e353bea
+  React-jsi: 9fe1854d2c0486216acebd5db3c38b4ccb23ca0b
+  React-jsiexecutor: db2f6e22a534d466fc0e34e622df47d9d20bab2f
+  React-jsinspector: 8c0517dee5e8c70cd6c3066f20213ff7ce54f176
+  React-logger: bfddd3418dc1d45b77b822958f3e31422e2c179b
+  React-perflogger: fcac6090a80e3d967791b4c7f1b1a017f9d4a398
+  React-RCTActionSheet: caf5913d9f9e605f5467206cf9d1caa6d47d7ad6
+  React-RCTAnimation: 6539e3bf594f6a529cd861985ba6548286ae1ead
+  React-RCTBlob: 6e2e999d28b15fd03ed533f164ce33e0fcde571a
+  React-RCTImage: c6bbb10eedb6b840c4474f2108b864173b83de15
+  React-RCTLinking: 8fda9bb8fdb104e78110a903a9a77754318c7d11
+  React-RCTNetwork: 2b26daad93830501cf14aab03eac04e304f942d3
+  React-RCTSettings: 89c0dcee7adb706c749383596f57c1e882a27843
+  React-RCTText: 71734fce8e6cb854daeb4a5eec182c303ea58473
+  React-RCTVibration: 6600b5eed7c0fda4a433fa1198d1cb2690151791
+  React-runtimeexecutor: 33a949a51bec5f8a3c9e8d8092deb259600d761e
+  ReactCommon: 620442811dc6f707b4bf5e3b27d4f19c12d5a821
+  ReactiveCocoa: 680c68a0f98bfd42d988dc618aca69849cebeaf8
+  ReactiveObjC: 55b6cb14d9d47a284a28fd3916f80a532746a4e8
+  ReactiveSwift: fe2e91a4a1806ba2430584a90b08a261d8689f46
+  Realm: 38e9dcb19104b58407167d99f70d4995f7c16023
+  RealmSwift: 3183cc1ad48378fbcd634311b22c0e6c44021152
+  Result: a0ea1c36ac2f8b951d2caaa3170d04ecab0a5fa3
+  RTRootNavigationController: cec0e8762196da22e3ded5857d9f3b80558420e5
+  RxCocoa: 41f0c9726fbc0b8d1b9e232a260cb99ba16b83bd
+  RxRelay: 675d1ff3b2ab45726b0f927c32b8d93cbf1d7114
+  RxSwift: 6ae63dd318d975ab4bf05f0561c678683efd51a5
+  SDCycleScrollView: 12846570b3401065f22a76f669a0cbb3cea9a230
+  SDWebImage: fe4f7e69612cb42a662ad54c72e3ef2d92a63b69
+  SnapKit: 0cf11ceaa2efb8321b9b78c47d24d579f1e70a3e
+  SRVideoPlayer: a3148d616509c671742d672d9273b3286ead48c2
+  SSZipArchive: 0b79005e660b0bdbdb1fa1e7b0f444fec5b76b10
+  SVProgressHUD: 6f69150a4a32c13113841eeb53efca3168bd88df
+  SwifterSwift: 037cab7db54e1b14c6b7020a3ab703c8bcc7b87a
+  SwiftProtobuf: ae9e4498650baa972d67275f3487687503dc6f75
+  SwiftyBeaver: 53786204dc799eb45645805eda80eec8e7ae1d71
+  Toast: 7f771b3a55fa6d093b22a5d8866d6c885ff06427
+  Toast-Swift: b8517f6b16f1e708d2e57821e34348e37703d622
+  TZImagePickerController: e83e6ef023ff7393b9f561de4c91038380e90d09
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+  YBImageBrowser: 31efb0e790159be84ab174876e77d9a1e0edf1c1
+  Yoga: 2b4a01651f42a32f82e6cef3830a3ba48088237f
+  YYCache: 03a452c43b877781cc29bf25f054cd874eb58519
+  YYImage: 4a06dfa971f005429e21043484681c5fbcc6a53e
+  YYText: 3f05289b6a59fa1aafd4c37a7092a0ec1fb0f7ca
+  YYWebImage: 072a704844da7e179b42b7d8c4190305c5290e25
+  ZLPhotoBrowser-objc: b84d0e3886c42a063ebff9cc3cb2b361a9ec0d98
+
+PODFILE CHECKSUM: 265bc9d549bcc9e781866efffb706f6de1fc4e54
+
+COCOAPODS: 1.10.1

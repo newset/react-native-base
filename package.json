@@ -1,0 +1,16 @@
+{
+  "name": "chief",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-native": "^0.66.1"
+  },
+  "scripts": {
+    "start": "npx react-native start"
+  },
+  "devDependencies": {
+    "@snyk/cocoapods-lockfile-parser": "^3.6.2"
+  }
+}
