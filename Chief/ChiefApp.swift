@@ -9,6 +9,13 @@ import SwiftUI
 
 @main
 struct ChiefApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
+    init() {
+    
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

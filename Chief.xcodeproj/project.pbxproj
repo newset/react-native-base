@@ -12,7 +12,11 @@
 		24324B19271E99790025484D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24324B18271E99790025484D /* Assets.xcassets */; };
 		24324B1C271E99790025484D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24324B1B271E99790025484D /* Preview Assets.xcassets */; };
 		24324B23271E9BC50025484D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 24324B22271E9BC50025484D /* Podfile */; };
-		24A05213272A9475004ACC79 /* Yard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A05212272A9475004ACC79 /* Yard.swift */; };
+		244B570F27392F74008148F1 /* Yard.m in Sources */ = {isa = PBXBuildFile; fileRef = 244B570E27392F74008148F1 /* Yard.m */; };
+		24B3D37527422EE8002F7C37 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B3D37427422EE8002F7C37 /* HomeViewController.m */; };
+		24B3D379274236C7002F7C37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B3D378274236C7002F7C37 /* AppDelegate.swift */; };
+		24B3D386274340A2002F7C37 /* base.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B3D383274340A2002F7C37 /* base.ios.bundle */; };
+		24B3D387274340A2002F7C37 /* index.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B3D385274340A2002F7C37 /* index.ios.bundle */; };
 		351666E75CC2886A91CD8F18 /* Pods_Chief.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2980EF71F53DEBE78B70B031 /* Pods_Chief.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +27,15 @@
 		24324B18271E99790025484D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24324B1B271E99790025484D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24324B22271E9BC50025484D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		24A05212272A9475004ACC79 /* Yard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yard.swift; sourceTree = "<group>"; };
+		244B570C2739258F008148F1 /* RCTBridge+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCTBridge+Extension.h"; sourceTree = "<group>"; };
+		244B570D27392F73008148F1 /* Chief-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chief-Bridging-Header.h"; sourceTree = "<group>"; };
+		244B570E27392F74008148F1 /* Yard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yard.m; sourceTree = "<group>"; };
+		244B5710273933FC008148F1 /* Yard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Yard.h; sourceTree = "<group>"; };
+		24B3D37327422EC1002F7C37 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		24B3D37427422EE8002F7C37 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		24B3D378274236C7002F7C37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24B3D383274340A2002F7C37 /* base.ios.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = base.ios.bundle; sourceTree = "<group>"; };
+		24B3D385274340A2002F7C37 /* index.ios.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index.ios.bundle; sourceTree = "<group>"; };
 		2980EF71F53DEBE78B70B031 /* Pods_Chief.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chief.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA6300BAE586F1CA6BE360E /* Pods-Chief.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chief.debug.xcconfig"; path = "Target Support Files/Pods-Chief/Pods-Chief.debug.xcconfig"; sourceTree = "<group>"; };
 		BD96A07E6159630A9CFBC567 /* Pods-Chief.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chief.release.xcconfig"; path = "Target Support Files/Pods-Chief/Pods-Chief.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,9 +74,12 @@
 		24324B13271E99780025484D /* Chief */ = {
 			isa = PBXGroup;
 			children = (
+				24B3D382274340A2002F7C37 /* JSBundle */,
+				24B3D37727422EFC002F7C37 /* Controller */,
 				24A05211272A9394004ACC79 /* Yard */,
 				24324B22271E9BC50025484D /* Podfile */,
 				24324B14271E99780025484D /* ChiefApp.swift */,
+				24B3D378274236C7002F7C37 /* AppDelegate.swift */,
 				24324B16271E99780025484D /* ContentView.swift */,
 				24324B18271E99790025484D /* Assets.xcassets */,
 				24324B1A271E99790025484D /* Preview Content */,
@@ -83,9 +98,38 @@
 		24A05211272A9394004ACC79 /* Yard */ = {
 			isa = PBXGroup;
 			children = (
-				24A05212272A9475004ACC79 /* Yard.swift */,
+				244B570C2739258F008148F1 /* RCTBridge+Extension.h */,
+				244B5710273933FC008148F1 /* Yard.h */,
+				244B570E27392F74008148F1 /* Yard.m */,
+				244B570D27392F73008148F1 /* Chief-Bridging-Header.h */,
 			);
 			path = Yard;
+			sourceTree = "<group>";
+		};
+		24B3D37727422EFC002F7C37 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24B3D37327422EC1002F7C37 /* HomeViewController.h */,
+				24B3D37427422EE8002F7C37 /* HomeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		24B3D382274340A2002F7C37 /* JSBundle */ = {
+			isa = PBXGroup;
+			children = (
+				24B3D383274340A2002F7C37 /* base.ios.bundle */,
+				24B3D384274340A2002F7C37 /* modules */,
+			);
+			path = JSBundle;
+			sourceTree = SOURCE_ROOT;
+		};
+		24B3D384274340A2002F7C37 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				24B3D385274340A2002F7C37 /* index.ios.bundle */,
+			);
+			path = modules;
 			sourceTree = "<group>";
 		};
 		A0B657CBC2A4F2D1E788F4CD /* Frameworks */ = {
@@ -117,7 +161,6 @@
 				24324B0E271E99780025484D /* Frameworks */,
 				24324B0F271E99780025484D /* Resources */,
 				99F041CD2F5900F0A4A07CFA /* [CP] Embed Pods Frameworks */,
-				91DCDD6724C9207ABB0BFFA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,6 +183,7 @@
 				TargetAttributes = {
 					24324B10271E99780025484D = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -169,6 +213,8 @@
 				24324B23271E9BC50025484D /* Podfile in Resources */,
 				24324B1C271E99790025484D /* Preview Assets.xcassets in Resources */,
 				24324B19271E99790025484D /* Assets.xcassets in Resources */,
+				24B3D386274340A2002F7C37 /* base.ios.bundle in Resources */,
+				24B3D387274340A2002F7C37 /* index.ios.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,23 +243,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		91DCDD6724C9207ABB0BFFA5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Chief/Pods-Chief-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Chief/Pods-Chief-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chief/Pods-Chief-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		99F041CD2F5900F0A4A07CFA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,9 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				244B570F27392F74008148F1 /* Yard.m in Sources */,
 				24324B17271E99780025484D /* ContentView.swift in Sources */,
+				24B3D37527422EE8002F7C37 /* HomeViewController.m in Sources */,
+				24B3D379274236C7002F7C37 /* AppDelegate.swift in Sources */,
 				24324B15271E99780025484D /* ChiefApp.swift in Sources */,
-				24A05213272A9475004ACC79 /* Yard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Chief/Preview Content\"";
@@ -389,6 +421,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.medlinker.doctor.Chief;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Chief/Yard/Chief-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -400,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Chief/Preview Content\"";
@@ -420,6 +455,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.medlinker.doctor.Chief;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Chief/Yard/Chief-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

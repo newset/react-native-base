@@ -4,8 +4,8 @@
 mkdir -p JSBundle
 
 # 构建业务bundle
-npx react-native bundle --entry-file src/index.js\
- --bundle-output JSBundle/ios.bundle\
+npx react-native bundle --entry-file module/index.js\
+ --bundle-output JSBundle/modules/index.ios.bundle\
  --platform ios \
  --assets-dest JSBundle/\
  --dev false \
@@ -13,7 +13,7 @@ npx react-native bundle --entry-file src/index.js\
 
 export RN_BUILD_TYPE=base
 # 构建 base bundle
- npx react-native bundle --entry-file src/base.js\
+ npx react-native bundle --entry-file base.ts\
  --bundle-output JSBundle/base.ios.bundle\
  --platform ios \
  --assets-dest JSBundle/\

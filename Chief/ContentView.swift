@@ -25,56 +25,36 @@ struct ContentView: View {
     var tutors: [Tutor] = [];
 
     let jsLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")
-    
+    let jsCodeLocation = Bundle.main.url(forResource: "base.ios", withExtension: "jsbundle");
     
     @State var showAlert = false
     @State var percent = 0.5
     
     var body: some View {
-//        let rootView = RCTRootView(
-//            bundleURL: jsLocation!,
-//            moduleName: "RNHighScores",
-//            initialProperties: nil,
-//            launchOptions: nil
-//        )
-        
     
         NavigationView{
         
             VStack {
-                Button(action: {
-                    self.showAlert = true
-                }){
-                    Text("ok")
-                }
-                .alert(isPresented: $showAlert){
-                    Alert(title: Text("ok"),
-                          message: Text("message"))
-                }
-                HStack {
-                    VStack {
-                        Rectangle()
-                            .foregroundColor(.blue)
-                        Text("Target Color Block")
-                    }
-                    VStack{
-                        Rectangle()
-                            .foregroundColor(.red)
-                        ExtractedView()
-                    }
-                }
-                HStack{
-                    Text("0")
-                    Slider(value: $percent)
-                        .accentColor(.red)
-                    Text("255")
-                }
-                
+                RNScreen()
             }
-            
            
         }.navigationTitle(Text("Tutors"))
     }
+}
+
+struct RNScreen: UIViewControllerRepresentable {
+    
+    func makeUIViewController(context: Context) -> HomeViewController {
+        let screen = HomeViewController()
+        return screen
+    }
+    
+        // 3.
+    func updateUIViewController(_ uiViewController: HomeViewController, context: Context) {
+        
+    }
+    
+    typealias UIViewControllerType = HomeViewController
 }
 
 struct ContentView_Previews: PreviewProvider {

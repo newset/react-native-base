@@ -5,12 +5,16 @@
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.2",
-    "react-native": "^0.66.1"
+    "react-native": "^0.66.1",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-storage": "^1.0.1"
   },
   "scripts": {
     "start": "npx react-native start"
   },
   "devDependencies": {
-    "@snyk/cocoapods-lockfile-parser": "^3.6.2"
+    "@snyk/cocoapods-lockfile-parser": "^3.6.2",
+    "@types/react": "^17.0.34",
+    "@types/react-native": "^0.66.4"
   }
 }
