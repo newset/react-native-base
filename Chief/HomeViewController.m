@@ -9,6 +9,7 @@
 #import "Yard.h"
 #import "HomeViewController.h"
 #import <React/RCTRootView.h>
+#import "Chief-Swift.h"
 
 @implementation HomeViewController
 
@@ -19,6 +20,7 @@
 - (void)viewDidLoad {
     
 //    self.nameAlias = @"clinic";
+//    [self setName]
     
     [super viewDidLoad];
         // 此处只是使用加载本地的bundle的方式，如果是在线的方式，可以先使用http下载然后加载本地

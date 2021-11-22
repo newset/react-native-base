@@ -31,6 +31,10 @@ extension UIViewController {
             objc_setAssociatedObject(self, "aliasName", newValue, .OBJC_ASSOCIATION_COPY);
         }
     }
+    
+    func setName (value: String) {
+        self.aliasName = value;
+    }
 
     static let classInit: Void = {
             // patch viewDidLoad

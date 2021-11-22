@@ -14,3 +14,7 @@ build:
 	rm -rf JSBundle/*
 	mkdir -p JSBundle/modules
 	sh scripts/build.sh
+
+intall:
+	npm i
+	make fix

@@ -11,7 +11,6 @@
 
 #endif /* HomeViewController_h */
 #import <UIKit/UIKit.h>
-#import "Chief-Swift.h"
 
 @interface HomeViewController : UIViewController
 
