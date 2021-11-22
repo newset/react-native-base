@@ -4,7 +4,7 @@
 mkdir -p JSBundle
 
 # 构建业务bundle
-npx react-native bundle --entry-file module/index.js\
+npx react-native bundle --entry-file modules/index.tsx\
  --bundle-output JSBundle/modules/index.ios.bundle\
  --platform ios \
  --assets-dest JSBundle/\

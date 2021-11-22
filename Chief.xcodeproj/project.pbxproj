@@ -13,6 +13,8 @@
 		24324B1C271E99790025484D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24324B1B271E99790025484D /* Preview Assets.xcassets */; };
 		24324B23271E9BC50025484D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 24324B22271E9BC50025484D /* Podfile */; };
 		244B570F27392F74008148F1 /* Yard.m in Sources */ = {isa = PBXBuildFile; fileRef = 244B570E27392F74008148F1 /* Yard.m */; };
+		24A3308D274B454600007339 /* UIView+RNSwizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3308C274B454600007339 /* UIView+RNSwizzle.swift */; };
+		24A3308F274B482E00007339 /* UIViewController+RNSwizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3308E274B482E00007339 /* UIViewController+RNSwizzle.swift */; };
 		24B3D37527422EE8002F7C37 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B3D37427422EE8002F7C37 /* HomeViewController.m */; };
 		24B3D379274236C7002F7C37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B3D378274236C7002F7C37 /* AppDelegate.swift */; };
 		24B3D386274340A2002F7C37 /* base.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B3D383274340A2002F7C37 /* base.ios.bundle */; };
@@ -31,6 +33,8 @@
 		244B570D27392F73008148F1 /* Chief-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chief-Bridging-Header.h"; sourceTree = "<group>"; };
 		244B570E27392F74008148F1 /* Yard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Yard.m; sourceTree = "<group>"; };
 		244B5710273933FC008148F1 /* Yard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Yard.h; sourceTree = "<group>"; };
+		24A3308C274B454600007339 /* UIView+RNSwizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RNSwizzle.swift"; sourceTree = "<group>"; };
+		24A3308E274B482E00007339 /* UIViewController+RNSwizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RNSwizzle.swift"; sourceTree = "<group>"; };
 		24B3D37327422EC1002F7C37 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		24B3D37427422EE8002F7C37 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		24B3D378274236C7002F7C37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				244B5710273933FC008148F1 /* Yard.h */,
 				244B570E27392F74008148F1 /* Yard.m */,
 				244B570D27392F73008148F1 /* Chief-Bridging-Header.h */,
+				24A3308C274B454600007339 /* UIView+RNSwizzle.swift */,
+				24A3308E274B482E00007339 /* UIViewController+RNSwizzle.swift */,
 			);
 			path = Yard;
 			sourceTree = "<group>";
@@ -270,7 +276,9 @@
 				244B570F27392F74008148F1 /* Yard.m in Sources */,
 				24324B17271E99780025484D /* ContentView.swift in Sources */,
 				24B3D37527422EE8002F7C37 /* HomeViewController.m in Sources */,
+				24A3308D274B454600007339 /* UIView+RNSwizzle.swift in Sources */,
 				24B3D379274236C7002F7C37 /* AppDelegate.swift in Sources */,
+				24A3308F274B482E00007339 /* UIViewController+RNSwizzle.swift in Sources */,
 				24324B15271E99780025484D /* ChiefApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

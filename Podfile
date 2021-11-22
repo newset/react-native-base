@@ -19,4 +19,6 @@ target 'Chief' do
     :hermes_enabled => false
   )
 
+  pod "InterposeKit"
+
 end

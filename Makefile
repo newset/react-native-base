@@ -9,3 +9,8 @@ fix:
 	mv Specs/folly.podspec $(folly)
 	sed 's|github.com/google/double-conversion|gitee.com/mirrors/double-conversion|g' $(doubleconversion) > Specs/DoubleConversion.podspec
 	mv Specs/DoubleConversion.podspec $(doubleconversion)
+
+build: 
+	rm -rf JSBundle/*
+	mkdir -p JSBundle/modules
+	sh scripts/build.sh

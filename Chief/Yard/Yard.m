@@ -89,6 +89,7 @@
     [[NSBundle mainBundle] URLForResource:path withExtension:@"bundle"]
         .path;
     
+    NSLog(jsCodeLocationBuz);
     NSError *error = nil;
         // you can replace to you own file location
     NSData *sourceBuz = [NSData dataWithContentsOfFile:jsCodeLocationBuz

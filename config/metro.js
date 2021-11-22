@@ -1,6 +1,4 @@
 const path = require("path");
-// const { mergeConfig, getDefaultConfig } = require("metro-config");
-
 const command = process.argv[2];
 
 let shouldFilter = process.env.RN_BUILD_TYPE === "base";
@@ -17,7 +15,7 @@ const processModuleFilter = function (m) {
   //   return true
   const file = m.path;
   if (isBultin(file)) {
-    return false;
+    // return false;
   }
 
   return true;
