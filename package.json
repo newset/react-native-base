@@ -10,6 +10,7 @@
     "react-native-storage": "^1.0.1"
   },
   "scripts": {
+    "serve": "nodemon api/index.js",
     "start": "npx react-native start"
   },
   "devDependencies": {

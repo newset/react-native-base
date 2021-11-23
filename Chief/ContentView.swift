@@ -18,10 +18,14 @@ struct TutorCell: View {
         Text(tutor.name)
             .font(.subheadline)
             .foregroundColor(.blue)
+            .cornerRadius(40)
     }
 }
 
 struct ContentView: View {
+    
+    var pageAliasName = "doctor";
+    
     var tutors: [Tutor] = [];
 
     let jsLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")
@@ -35,7 +39,20 @@ struct ContentView: View {
         NavigationView{
         
             VStack {
-                RNScreen()
+                NavigationLink(destination: RNScreen()) {
+                    Text("Hello World")
+                }
+                Button(action: {
+                    print("ok")
+                }){
+                    Text("跳转")
+                        .frame(minWidth: 0, maxWidth: 100)
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(40)
+                }
+//                RNScreen()
             }
            
         }.navigationTitle(Text("Tutors"))
@@ -49,7 +66,7 @@ struct RNScreen: UIViewControllerRepresentable {
         return screen
     }
     
-        // 3.
+    // 3.
     func updateUIViewController(_ uiViewController: HomeViewController, context: Context) {
         
     }

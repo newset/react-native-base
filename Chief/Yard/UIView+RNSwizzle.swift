@@ -27,7 +27,7 @@ extension UIView {
 
     @objc func swizzled_layoutSubviews() {
         swizzled_layoutSubviews()
-        self.layer.borderColor = UIColor.red.cgColor
-        self.layer.borderWidth = 2
+//        self.layer.borderColor = UIColor.red.cgColor
+//        self.layer.borderWidth = 2
     }
 }

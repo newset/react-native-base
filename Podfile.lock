@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (5.4.4)
   - boost (1.76.0)
   - DoubleConversion (1.1.6)
   - FBLazyVector (0.66.3)
@@ -280,6 +281,7 @@ PODS:
   - Yoga (1.14.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.4)
   - boost (from `node_modules/react-native/third-party-podspecs/boost.podspec`)
   - DoubleConversion (from `node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `node_modules/react-native/Libraries/FBLazyVector`)
@@ -317,6 +319,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   http://nexus.medlinker.com/repository/cocoapods/:
+    - Alamofire
     - fmt
     - InterposeKit
 
@@ -385,6 +388,7 @@ EXTERNAL SOURCES:
     :path: node_modules/react-native/ReactCommon/yoga
 
 SPEC CHECKSUMS:
+  Alamofire: 631188def81e1e53447621a12444559e58dfb4ae
   boost: a7c83b31436843459a1961bfd74b96033dc77234
   DoubleConversion: 6794b9289a9f0f99b2099ea9849ab24d56f366e8
   FBLazyVector: de148e8310b8b878db304ceea2fec13f2c02e3a0
@@ -419,6 +423,6 @@ SPEC CHECKSUMS:
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
   Yoga: 32a18c0e845e185f4a2a66ec76e1fd1f958f22fa
 
-PODFILE CHECKSUM: d9e148d9ca0d2cad2577dbe9157531ff369d937c
+PODFILE CHECKSUM: 3cc210b230064e8b25342226b70b7f863a571b4c
 
 COCOAPODS: 1.11.2

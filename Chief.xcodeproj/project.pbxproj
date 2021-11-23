@@ -15,6 +15,8 @@
 		244B570F27392F74008148F1 /* Yard.m in Sources */ = {isa = PBXBuildFile; fileRef = 244B570E27392F74008148F1 /* Yard.m */; };
 		24A3308D274B454600007339 /* UIView+RNSwizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3308C274B454600007339 /* UIView+RNSwizzle.swift */; };
 		24A3308F274B482E00007339 /* UIViewController+RNSwizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3308E274B482E00007339 /* UIViewController+RNSwizzle.swift */; };
+		24A33095274B876600007339 /* Clinic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A33094274B876600007339 /* Clinic.swift */; };
+		24A33097274B936400007339 /* YardPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A33096274B936400007339 /* YardPopup.swift */; };
 		24B3D37527422EE8002F7C37 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B3D37427422EE8002F7C37 /* HomeViewController.m */; };
 		24B3D379274236C7002F7C37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B3D378274236C7002F7C37 /* AppDelegate.swift */; };
 		24B3D386274340A2002F7C37 /* base.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B3D383274340A2002F7C37 /* base.ios.bundle */; };
@@ -36,6 +38,8 @@
 		24A3308C274B454600007339 /* UIView+RNSwizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RNSwizzle.swift"; sourceTree = "<group>"; };
 		24A3308E274B482E00007339 /* UIViewController+RNSwizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RNSwizzle.swift"; sourceTree = "<group>"; };
 		24A33092274B7F8900007339 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		24A33094274B876600007339 /* Clinic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clinic.swift; sourceTree = "<group>"; };
+		24A33096274B936400007339 /* YardPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardPopup.swift; sourceTree = "<group>"; };
 		24B3D37327422EC1002F7C37 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		24B3D37427422EE8002F7C37 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		24B3D378274236C7002F7C37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 				24324B18271E99790025484D /* Assets.xcassets */,
 				24324B1A271E99790025484D /* Preview Content */,
 				24A33092274B7F8900007339 /* PrefixHeader.pch */,
+				24A33094274B876600007339 /* Clinic.swift */,
 			);
 			path = Chief;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 				244B570D27392F73008148F1 /* Chief-Bridging-Header.h */,
 				24A3308C274B454600007339 /* UIView+RNSwizzle.swift */,
 				24A3308E274B482E00007339 /* UIViewController+RNSwizzle.swift */,
+				24A33096274B936400007339 /* YardPopup.swift */,
 			);
 			path = Yard;
 			sourceTree = "<group>";
@@ -276,10 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				244B570F27392F74008148F1 /* Yard.m in Sources */,
+				24A33095274B876600007339 /* Clinic.swift in Sources */,
 				24324B17271E99780025484D /* ContentView.swift in Sources */,
 				24B3D37527422EE8002F7C37 /* HomeViewController.m in Sources */,
 				24A3308D274B454600007339 /* UIView+RNSwizzle.swift in Sources */,
 				24B3D379274236C7002F7C37 /* AppDelegate.swift in Sources */,
+				24A33097274B936400007339 /* YardPopup.swift in Sources */,
 				24A3308F274B482E00007339 /* UIViewController+RNSwizzle.swift in Sources */,
 				24324B15271E99780025484D /* ChiefApp.swift in Sources */,
 			);

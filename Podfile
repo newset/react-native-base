@@ -20,5 +20,6 @@ target 'Chief' do
   )
 
   pod "InterposeKit"
+  pod 'Alamofire', '~> 5.4'
 
 end

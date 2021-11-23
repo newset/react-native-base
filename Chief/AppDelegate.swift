@@ -15,12 +15,10 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        print("Your code here \(launchOptions)")
-        
-//        guard let options = launchOptions else{
-            let ins = Yard.instance()
-            ins.loadBaseBundle(launchOptions: launchOptions)
-//        }
+    
+
+        let ins = Yard.instance()
+        ins.loadBaseBundle(launchOptions: launchOptions)
       
         return true
     }

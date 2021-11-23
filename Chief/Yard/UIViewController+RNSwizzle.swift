@@ -8,6 +8,8 @@
 import Foundation
 import UIKit
 import ObjectiveC
+import Alamofire
+import SwiftUI
 
 extension NSObject {
     var className: String {
@@ -19,21 +21,47 @@ extension NSObject {
     }
 }
 
-
-extension UIViewController {
-    
-    public var aliasName: String? {
+extension View {
+    var pageAliasName: String? {
         get {
-            return objc_getAssociatedObject(self, "aliasName") as? String;
+            return objc_getAssociatedObject(self, "pageAliasName") as? String;
         }
         
         set(newValue) {
-            objc_setAssociatedObject(self, "aliasName", newValue, .OBJC_ASSOCIATION_COPY);
+            objc_setAssociatedObject(self, "pageAliasName", newValue, .OBJC_ASSOCIATION_COPY);
         }
     }
     
-    func setName (value: String) {
-        self.aliasName = value;
+    /**
+        加载 url from pageAliasName
+         
+     */
+    func openMini() {
+//        let alert = UIAlertController(title: messageTitle, message: messageAlert, preferredStyle: messageBoxStyle)
+//        
+//        let okAction = UIAlertAction(title: "Ok", style: alertActionStyle) { _ in
+//            completionHandler() // This will only get called after okay is tapped in the alert
+//        }
+//        
+//        alert.addAction(okAction)
+//        
+//        present(alert, animated: true, completion: nil);
+    }
+
+}
+
+
+extension UIViewController {
+    
+    @objc
+    public var pageAliasName: String? {
+        get {
+            return objc_getAssociatedObject(self, "pageAliasName") as? String;
+        }
+        
+        set(newValue) {
+            objc_setAssociatedObject(self, "pageAliasName", newValue, .OBJC_ASSOCIATION_COPY);
+        }
     }
 
     static let classInit: Void = {
@@ -52,7 +80,13 @@ extension UIViewController {
     
     @objc func swizzled_viewDidLoad() {
         swizzled_viewDidLoad()
-//        NSLog("-- in swizzled %@", [self.value(forKey: "aliasName") as NSString]);
-        print("-- in swizzled: ", self.aliasName);
+        
+        if(self.pageAliasName == "clinic") {
+            AF.request("http://localhost:4000?page=").response { response in
+                debugPrint(response)
+            }
+        }
+        
+        print("-- in viewDidload: ", self.pageAliasName);
     }
 }
