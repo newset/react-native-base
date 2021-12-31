@@ -86,10 +86,10 @@
     }
     
     NSString *jsCodeLocationBuz =
-    [[NSBundle mainBundle] URLForResource:path withExtension:@"bundle"]
+    [[NSBundle mainBundle] URLForResource: path withExtension:@"bundle"]
         .path;
     
-    NSLog(jsCodeLocationBuz);
+    
     NSError *error = nil;
         // you can replace to you own file location
     NSData *sourceBuz = [NSData dataWithContentsOfFile:jsCodeLocationBuz
@@ -171,8 +171,8 @@
                                                    withExtension:@"bundle"].path;
     
     
-    return [NSURL URLWithString: @"http://localhost:8081/base.bundle?platform=ios&dev=true&minify=false"];
-//    return [NSURL fileURLWithPath:bundlePath];
+//    return [NSURL URLWithString: @"http://localhost:8081/base.bundle?platform=ios&dev=true&minify=false"];
+    return [NSURL fileURLWithPath:bundlePath];
 }
 
     // load base js bundle

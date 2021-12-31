@@ -26,10 +26,7 @@ struct ContentView: View {
     
     var pageAliasName = "doctor";
     
-    var tutors: [Tutor] = [];
-
-    let jsLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")
-    let jsCodeLocation = Bundle.main.url(forResource: "base.ios", withExtension: "jsbundle");
+    var tutors: [Tutor] = []
     
     @State var showAlert = false
     @State var percent = 0.5
@@ -53,9 +50,12 @@ struct ContentView: View {
                         .cornerRadius(40)
                 }
 //                RNScreen()
-            }
+            }.navigationTitle("Dynamic App")
            
-        }.navigationTitle(Text("Tutors"))
+        }
+        .onAppear {
+            print("ContentView appeared!")
+        }
     }
 }
 
@@ -77,7 +77,9 @@ struct RNScreen: UIViewControllerRepresentable {
 struct ContentView_Previews: PreviewProvider {
     
     static var previews: some View {
-        ContentView()
+        NavigationView {
+            ContentView()
+        }.navigationTitle("Test")
     }
 }
 

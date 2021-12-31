@@ -1,17 +1,12 @@
 # 构建module
 
 # 检查JSBundle文件夹
-mkdir -p JSBundle
+mkdir -p JSBundle node_modules/.rn-cache
 
-# 构建业务bundle
-npx react-native bundle --entry-file modules/index.tsx\
- --bundle-output JSBundle/modules/index.ios.bundle\
- --platform ios \
- --assets-dest JSBundle/\
- --dev false \
- --config metro.config.js
+# reset cache
+echo "" > node_modules/.rn-cache/map.js
 
-export RN_BUILD_TYPE=base
+export RN_BUILD_TYPE=core
 # 构建 base bundle
  npx react-native bundle --entry-file base.ts\
  --bundle-output JSBundle/base.ios.bundle\
@@ -19,4 +14,19 @@ export RN_BUILD_TYPE=base
  --assets-dest JSBundle/\
  --dev false \
  --config metro.config.js
+
+ echo "global.__map = __map; global.__idFromMap = (name) => __map[name] || name" >> ./node_modules/.rn-cache/map.js
+
+ # insert map to base bundle
+# node config/patch.js
+
+export RN_BUILD_TYPE=app
+# 构建业务bundle
+npx react-native bundle --entry-file modules/index.tsx\
+ --bundle-output JSBundle/index.ios.bundle\
+ --platform ios \
+ --assets-dest JSBundle/\
+ --dev false \
+ --config metro.config.js
+
 

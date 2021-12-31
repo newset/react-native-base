@@ -11,7 +11,8 @@
   },
   "scripts": {
     "serve": "nodemon api/index.js",
-    "start": "npx react-native start"
+    "start": "npx react-native start",
+    "build": "sh scripts/build.sh"
   },
   "devDependencies": {
     "@snyk/cocoapods-lockfile-parser": "^3.6.2",
