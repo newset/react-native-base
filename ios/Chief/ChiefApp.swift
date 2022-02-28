@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import React
 
 @main
 struct ChiefApp: App {

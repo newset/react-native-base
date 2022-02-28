@@ -41,6 +41,7 @@ struct ContentView: View {
                 }
                 Button(action: {
                     print("ok")
+              
                 }){
                     Text("跳转")
                         .frame(minWidth: 0, maxWidth: 100)
@@ -49,7 +50,6 @@ struct ContentView: View {
                         .foregroundColor(Color.white)
                         .cornerRadius(40)
                 }
-//                RNScreen()
             }.navigationTitle("Dynamic App")
            
         }
@@ -61,17 +61,37 @@ struct ContentView: View {
 
 struct RNScreen: UIViewControllerRepresentable {
     
-    func makeUIViewController(context: Context) -> HomeViewController {
-        let screen = HomeViewController()
+    func makeUIViewController(context: Context) -> DetailViewController {
+        let screen = DetailViewController()
         return screen
     }
     
     // 3.
-    func updateUIViewController(_ uiViewController: HomeViewController, context: Context) {
+    func updateUIViewController(_ uiViewController: DetailViewController, context: Context) {
         
     }
     
-    typealias UIViewControllerType = HomeViewController
+    typealias UIViewControllerType = DetailViewController
+}
+
+
+class DetailViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+
+        let jsCodeLocation = RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index", fallbackResource: nil)
+        
+        print(jsCodeLocation);
+        let root = RCTRootView(
+            bundleURL: jsCodeLocation!,
+            moduleName: "RNHighScores",
+            initialProperties: nil,
+            launchOptions: nil
+        )
+        self.view = root;
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {

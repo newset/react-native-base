@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 import ObjectiveC
-import Alamofire
 import SwiftUI
 
 extension NSObject {
@@ -82,9 +81,7 @@ extension UIViewController {
         swizzled_viewDidLoad()
         
         if(self.pageAliasName == "clinic") {
-            AF.request("http://localhost:4000?page=").response { response in
-                debugPrint(response)
-            }
+        
         }
         
         print("-- in viewDidload: ", self.pageAliasName);

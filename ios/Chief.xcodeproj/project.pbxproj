@@ -15,12 +15,11 @@
 		244B570F27392F74008148F1 /* Yard.m in Sources */ = {isa = PBXBuildFile; fileRef = 244B570E27392F74008148F1 /* Yard.m */; };
 		24A3308D274B454600007339 /* UIView+RNSwizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3308C274B454600007339 /* UIView+RNSwizzle.swift */; };
 		24A3308F274B482E00007339 /* UIViewController+RNSwizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3308E274B482E00007339 /* UIViewController+RNSwizzle.swift */; };
-		24A33095274B876600007339 /* Clinic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A33094274B876600007339 /* Clinic.swift */; };
 		24A33097274B936400007339 /* YardPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A33096274B936400007339 /* YardPopup.swift */; };
 		24B3D37527422EE8002F7C37 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B3D37427422EE8002F7C37 /* HomeViewController.m */; };
 		24B3D379274236C7002F7C37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B3D378274236C7002F7C37 /* AppDelegate.swift */; };
 		24B3D386274340A2002F7C37 /* base.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B3D383274340A2002F7C37 /* base.ios.bundle */; };
-		24B3D387274340A2002F7C37 /* index.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B3D385274340A2002F7C37 /* index.ios.bundle */; };
+		24F462DE278446E700BB277E /* index.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24F462DD278446E700BB277E /* index.ios.bundle */; };
 		351666E75CC2886A91CD8F18 /* Pods_Chief.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2980EF71F53DEBE78B70B031 /* Pods_Chief.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,13 +37,12 @@
 		24A3308C274B454600007339 /* UIView+RNSwizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RNSwizzle.swift"; sourceTree = "<group>"; };
 		24A3308E274B482E00007339 /* UIViewController+RNSwizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RNSwizzle.swift"; sourceTree = "<group>"; };
 		24A33092274B7F8900007339 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		24A33094274B876600007339 /* Clinic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clinic.swift; sourceTree = "<group>"; };
 		24A33096274B936400007339 /* YardPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YardPopup.swift; sourceTree = "<group>"; };
 		24B3D37327422EC1002F7C37 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		24B3D37427422EE8002F7C37 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		24B3D378274236C7002F7C37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24B3D383274340A2002F7C37 /* base.ios.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = base.ios.bundle; sourceTree = "<group>"; };
-		24B3D385274340A2002F7C37 /* index.ios.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index.ios.bundle; sourceTree = "<group>"; };
+		24F462DD278446E700BB277E /* index.ios.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index.ios.bundle; sourceTree = "<group>"; };
 		2980EF71F53DEBE78B70B031 /* Pods_Chief.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chief.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA6300BAE586F1CA6BE360E /* Pods-Chief.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chief.debug.xcconfig"; path = "Target Support Files/Pods-Chief/Pods-Chief.debug.xcconfig"; sourceTree = "<group>"; };
 		BD96A07E6159630A9CFBC567 /* Pods-Chief.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chief.release.xcconfig"; path = "Target Support Files/Pods-Chief/Pods-Chief.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,10 +88,10 @@
 				24324B14271E99780025484D /* ChiefApp.swift */,
 				24B3D378274236C7002F7C37 /* AppDelegate.swift */,
 				24324B16271E99780025484D /* ContentView.swift */,
+				244B570D27392F73008148F1 /* Chief-Bridging-Header.h */,
 				24324B18271E99790025484D /* Assets.xcassets */,
 				24324B1A271E99790025484D /* Preview Content */,
 				24A33092274B7F8900007339 /* PrefixHeader.pch */,
-				24A33094274B876600007339 /* Clinic.swift */,
 			);
 			path = Chief;
 			sourceTree = "<group>";
@@ -112,7 +110,6 @@
 				244B570C2739258F008148F1 /* RCTBridge+Extension.h */,
 				244B5710273933FC008148F1 /* Yard.h */,
 				244B570E27392F74008148F1 /* Yard.m */,
-				244B570D27392F73008148F1 /* Chief-Bridging-Header.h */,
 				24A3308C274B454600007339 /* UIView+RNSwizzle.swift */,
 				24A3308E274B482E00007339 /* UIViewController+RNSwizzle.swift */,
 				24A33096274B936400007339 /* YardPopup.swift */,
@@ -132,19 +129,11 @@
 		24B3D382274340A2002F7C37 /* JSBundle */ = {
 			isa = PBXGroup;
 			children = (
+				24F462DD278446E700BB277E /* index.ios.bundle */,
 				24B3D383274340A2002F7C37 /* base.ios.bundle */,
-				24B3D384274340A2002F7C37 /* modules */,
 			);
 			path = JSBundle;
 			sourceTree = SOURCE_ROOT;
-		};
-		24B3D384274340A2002F7C37 /* modules */ = {
-			isa = PBXGroup;
-			children = (
-				24B3D385274340A2002F7C37 /* index.ios.bundle */,
-			);
-			path = modules;
-			sourceTree = "<group>";
 		};
 		A0B657CBC2A4F2D1E788F4CD /* Frameworks */ = {
 			isa = PBXGroup;
@@ -228,7 +217,7 @@
 				24324B1C271E99790025484D /* Preview Assets.xcassets in Resources */,
 				24324B19271E99790025484D /* Assets.xcassets in Resources */,
 				24B3D386274340A2002F7C37 /* base.ios.bundle in Resources */,
-				24B3D387274340A2002F7C37 /* index.ios.bundle in Resources */,
+				24F462DE278446E700BB277E /* index.ios.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +271,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				244B570F27392F74008148F1 /* Yard.m in Sources */,
-				24A33095274B876600007339 /* Clinic.swift in Sources */,
 				24324B17271E99780025484D /* ContentView.swift in Sources */,
 				24B3D37527422EE8002F7C37 /* HomeViewController.m in Sources */,
 				24A3308D274B454600007339 /* UIView+RNSwizzle.swift in Sources */,
@@ -441,7 +429,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.medlinker.doctor.Chief;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Chief/Yard/Chief-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chief/Chief-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,7 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.medlinker.doctor.Chief;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Chief/Yard/Chief-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Chief/Chief-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

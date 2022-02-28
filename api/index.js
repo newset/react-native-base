@@ -4,11 +4,6 @@ var http = require('http');
 const querystring = require('querystring');
 var app = connect();
 
-/**
-
-action: popup/inline/confirm/alert
-
-*/
 app.use(function (req, res) {
   // parse query
   console.log('req: ', req.url)

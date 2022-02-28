@@ -12,7 +12,7 @@ export RN_BUILD_TYPE=core
  --bundle-output JSBundle/base.ios.bundle\
  --platform ios \
  --assets-dest JSBundle/\
- --dev false \
+ --dev true \
  --config metro.config.js
 
  echo "global.__map = __map; global.__idFromMap = (name) => __map[name] || name" >> ./node_modules/.rn-cache/map.js
@@ -26,7 +26,7 @@ npx react-native bundle --entry-file modules/index.tsx\
  --bundle-output JSBundle/index.ios.bundle\
  --platform ios \
  --assets-dest JSBundle/\
- --dev false \
+ --dev true \
  --config metro.config.js
 
 
