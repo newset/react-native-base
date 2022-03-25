@@ -1,7 +1,8 @@
 import React from "react";
-import { AppRegistry, StyleSheet, Text, View } from "react-native";
+import { View } from "react-native";
 import { styles } from "./styles";
 import WebView from "react-native-webview";
+import FastImage from "react-native-fast-image";
 
 type Score = {
   name: string;
@@ -14,22 +15,15 @@ const script = `
     authorize: function() {
       return new Promise((resolve, reject) => {
         window.ReactNativeWebView.postMessage(JSON.stringify({action: "authorize"}));
-        
-
         const listener = function(event) {
           const { status } = event.detail;
-          console.log('details', event.detail);
           if(status === 'success') {
-            resolve(event.detail);
-            return
+            return resolve(event.detail);
+            
           }
-          reject('Auth Failed');
+          return reject('Auth Failed');
         }
-
-        window.addEventListener('dappauth', listener, {
-          capture: true,
-          once: true
-        });
+        window.addEventListener('dappauth', listener, { capture: true, once: true });
       });
     }
   };
@@ -51,7 +45,24 @@ const RNHighScores: React.FC<{ scores: Score[] }> = () => {
 
   return (
     <View style={[styles.container]}>
-      <WebView
+      <FastImage
+        source={{
+          // uri: "https://pics7.baidu.com/feed/14ce36d3d539b6009d2b192d75e1c023c45cb7fa.jpeg?token=acc4ef8c6ed3552e19df56e8a7e07ae1",
+          // uri: "https://upload.wikimedia.org/wikipedia/commons/4/40/Antu_im-user-online.svg",
+          uri: "https://simpleicons.org/icons/github.svg",
+          // uri: "https://zvycl-fyaaa-aaaah-qckmq-cai.raw.ic0.app/?type=thumbnail&tokenid=ijemk-uykor-uwiaa-aaaaa-b4ast-eaqca-aadr3-q",
+        }}
+        style={{
+          width: 200,
+          height: 200,
+          // backgroundColor: "red",
+          borderRadius: 4,
+        }}
+        resizeMode="cover"
+        onLoadEnd={() => console.log("end")}
+        onError={() => console.log("error: ")}
+      ></FastImage>
+      {/* <WebView
         ref={ref}
         injectedJavaScriptBeforeContentLoaded={script}
         source={{ uri: "http://localhost:8080/api/" }}
@@ -61,10 +72,9 @@ const RNHighScores: React.FC<{ scores: Score[] }> = () => {
         }}
         onMessage={(event) => {
           const action = event.nativeEvent.data;
-          console.log("test", event.nativeEvent.data);
           handleMessage(action);
         }}
-      ></WebView>
+      ></WebView> */}
     </View>
   );
 };

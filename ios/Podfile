@@ -2,6 +2,8 @@
 # platform :ios, '9.0'
 source 'https://cdn.cocoapods.org'
 
+# require_relative './expo.rb'
+
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 inhibit_all_warnings!
@@ -12,6 +14,9 @@ target 'Chief' do
 
   # Pods for Chief
   config = use_native_modules!
+
+  pod 'SVGKit', :git => 'https://github.com/SVGKit/SVGKit.git', :branch => '3.x'
+
   use_react_native!(
     :path => config[:reactNativePath],
     # to enable hermes on iOS, change `false` to `true` and then install pods
